@@ -19,6 +19,8 @@ body {
   min-height: 100vh;
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  gap: 2px;
+  
 }
 
 .two-cols {
@@ -56,4 +58,7 @@ body {
   justify-content: center;
   font-size: 3.5rem;
   padding-top: 7px;
+}
+button:active {
+  transform: scale(1.03);
 }
