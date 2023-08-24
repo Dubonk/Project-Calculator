@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(0.25turn, #530a97, #125f92, #60cad1);
+  background: linear-gradient(0.5turn, #530a97, #125f92, #60cad1);
   font-family: sans-serif;
 }
 
@@ -21,6 +21,7 @@ body {
   grid-template-rows: minmax(120px, auto) repeat(5, 100px);
   gap: 2px;
   
+  
 }
 
 .two-cols {
@@ -29,9 +30,9 @@ body {
 
 .calculator-container>button {
   font-size: 2rem;
-  border: 1px solid #6e42a7;
+  border: 2px solid #5f566b;
   outline: none;
-  background-color: #dac0f0;
+  background-color: #c4c0c0;
   opacity: 80%;
   border-radius: 5px;
 }
@@ -55,7 +56,8 @@ body {
 }
 
 .lastResults {
- font-size: smaller;
+  color: #607c49;
+  font-size: smaller;
 }
 
 .calculator-display{
